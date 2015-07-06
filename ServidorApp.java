@@ -10,7 +10,7 @@ public class ServidorApp
 	static ServerSocket srvApp;
 	static Socket sk = new Socket();
 	
-	public static void criarThread() throws InterruptedException
+	public static void criarThread() throws IOException, InterruptedException
 	{
 		
     ServerSocket servidor = new ServerSocket(9090);
